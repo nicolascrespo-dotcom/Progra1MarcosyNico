@@ -1,14 +1,13 @@
 import java.util.Scanner;
 public class ClasificacionEdad {
     public static void main(String[] args) {
-        System.out.println("Cual es tu edad?");
-        int edad = Scanner.nextInt();
-        final int primeraINfancia=5
-        final int infancia=11
-        final int adolescencia=18
-        final int juventud=25
-        final int adultez=59
-        final int personaMayor=100
+
+        final int primeraINfancia=5;
+        final int infancia=11;
+        final int adolescencia=18;
+        final int juventud=25;
+        final int adultez=59;
+        final int personaMayor=100;
         System.out.println("Cual es tu edad?");
         Scanner sc = new Scanner(System.in);
         int edad = sc.nextInt();
