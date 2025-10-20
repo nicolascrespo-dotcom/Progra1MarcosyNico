@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class claisicacionConductores {
     public static void main(String[] args) {
         final int EDAD_MINIMA = 18;
