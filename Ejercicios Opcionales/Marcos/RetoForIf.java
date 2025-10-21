@@ -170,7 +170,7 @@ class RetoForIf {
 
                     if (
                     // El código desde aqui *********************************
-                    i>0 || j>0
+                    i!=0
                     // El código hasta aquí *********************************
                     ) {
                         System.out.print("(*)");
@@ -357,7 +357,7 @@ class RetoForIf {
 
                     if (
                     // El código desde aqui *********************************
-                    ((i + j) % 6 < 2)
+                    i==1
                     // El código hasta aquí *********************************
                     ) {
                         System.out.print("(*)");
