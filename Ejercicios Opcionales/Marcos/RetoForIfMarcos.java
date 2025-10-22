@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class RetoForIf {
+class RetoForIfMarcos {
 
     public static void main(String[] args) {
 
@@ -369,22 +369,5 @@ class RetoForIf {
             }
 
         }
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
     }
 }
