@@ -13,15 +13,15 @@ public class WhacAMole {
         int monigote1x;
         int monigote1y;
         int aciertos = 0;
+
         Scanner input = new Scanner(System.in);
 
         while (intentos < maxIntentos) {
-            intentos ++;
+            intentos++;
             monigote1x = (int) (Math.random() * 7) + 1;
             monigote1y = (int) (Math.random() * 7) + 1;
-            System.out.println("tienes la sensación de que va a salir en la casilla:"+ monigote1x + ", " + monigote1y);
+            System.out.println("tienes la sensación de que va a salir en la casilla:" + monigote1x + ", " + monigote1y);
 
-            
             System.out.println("Que casilla desea golpear(x)?: ");
             casillaMarcadax = input.nextInt();
             System.out.println("Que casilla desea golpear(y)?: ");
